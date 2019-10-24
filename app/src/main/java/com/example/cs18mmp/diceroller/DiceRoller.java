@@ -83,7 +83,7 @@ public class DiceRoller extends AppCompatActivity {
         Context context = DiceRoller.this;
 
         tv.setText(Integer.toString(randomNum));
-
+        // JUST A TEST
         InputNumber = (EditText) this.findViewById(R.id.roll);
 
       int num = Integer.parseInt(InputNumber.getText().toString());
